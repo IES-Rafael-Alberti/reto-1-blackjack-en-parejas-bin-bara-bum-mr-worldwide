@@ -22,10 +22,10 @@ def puntuacion_carta() -> int:
     return valor
 
 
-def main ():
+"""def main ():
     #La funcion principal devolvera el valor numerico de la carta.
     valor_carta = puntuacion_carta()
     return valor_carta
 
 if __name__=="__main__":
-    main()
+    main()"""
