@@ -14,14 +14,13 @@ def modo_juego(option_player: int):
         nom_jugador_2 = "Maquitrón"
         
     else:
+        
         raise ValueError ("**ERROR**\nDebes indicar opción 1 o 2.")
     
     return nom_jugador_2
-    
-    
-    
-    
-    
+
+
+
 def main():
     
     try:
