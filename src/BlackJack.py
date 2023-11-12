@@ -1,7 +1,7 @@
 """hoze, aqui vamos a meter el main para q vaya llamando a las otras funciones"""
 
 #Importamos todas las funciones que vamos a necesitar para el desarrollo del juego:
-from src.player_mod import modo_juego
+from src.eleccion_jugador import modo_juego
 from src.obt_carta import obtener_carta
 from src.valor_carta import puntuacion_carta
 
