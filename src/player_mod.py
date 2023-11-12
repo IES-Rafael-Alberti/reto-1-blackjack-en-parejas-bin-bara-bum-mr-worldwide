@@ -22,7 +22,7 @@ def modo_juego(option_player: int):
     
     
     
-def eleccion_modo_juego():
+def main():
     
     try:
         print("Introduce tu nombre: ")    
@@ -41,3 +41,7 @@ def eleccion_modo_juego():
             
     except ValueError as e:
         print(e)
+        
+        
+if __name__=="__main__":
+    main()
