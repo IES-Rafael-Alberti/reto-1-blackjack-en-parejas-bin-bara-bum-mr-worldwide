@@ -6,7 +6,7 @@ def jugar_black_Jack():
     from src.eleccion_jugador import modo_juego
     from src.obt_carta import obtener_carta
     from src.valor_carta import puntuacion_carta
-
+    from src.mano import mano_inicial
     try:
         #####PRINT MENSAJE DE BIENVENIDA
         #Iniciación del juego
@@ -28,6 +28,9 @@ def jugar_black_Jack():
         else:
             raise ValueError ("**ERROR**\nDebes introducir una de las dos opciones.")
         
+        print(mano_inicial(jugador_1))
+        
+        print(mano_inicial(jugador_2))
         #INICIALIZAR LA MANO 
             #INICIALIZAR PARA CADA JUGADOR 
             
