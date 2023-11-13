@@ -1,5 +1,5 @@
 #creamos una función para que asigna los valores a las figuras de la baraja y modifique a conveniencia el valor de A
-def puntuacion_carta() -> int:
+def puntuacion_carta(carta) -> int:
     
     from src.obt_carta import obtener_carta
     
