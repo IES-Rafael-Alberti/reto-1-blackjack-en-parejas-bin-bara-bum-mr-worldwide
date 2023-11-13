@@ -29,7 +29,10 @@ def jugar_black_Jack():
             raise ValueError ("**ERROR**\nDebes introducir una de las dos opciones.")
         
         #INICIALIZAR LA MANO 
-        
+            #INICIALIZAR PARA CADA JUGADOR 
+            
+        #AGREGAR CARTAS A LA MANO INICIAL     
+                  
         #RONDAS
             #RESULTADOS RONDA
             #CALCULAR RESULTADOS
