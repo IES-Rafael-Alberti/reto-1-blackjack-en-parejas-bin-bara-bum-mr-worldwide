@@ -1,9 +1,6 @@
 #creamos una función para que asigna los valores a las figuras de la baraja y modifique a conveniencia el valor de A
-def puntuacion_carta(carta) -> int:
-    
-    from src.obt_carta import obtener_carta
-    
-    carta = obtener_carta()
+def puntuacion_carta(carta: str) -> int:
+
     valor = 0
     
     #Actualizamos los valores str de las figuras a un valor numérico:
