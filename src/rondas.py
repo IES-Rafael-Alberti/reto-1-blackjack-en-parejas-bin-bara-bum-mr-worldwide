@@ -1,5 +1,5 @@
 def ronda(jugador: str, seguir: str):
-    from obt_carta import obtener_carta
+    from dar_carta import obtener_carta
     from valor_carta import puntuacion_carta
     try:
         

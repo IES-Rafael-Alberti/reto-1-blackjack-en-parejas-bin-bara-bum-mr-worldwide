@@ -4,7 +4,8 @@ def puntuacion_carta(carta: str) -> int:
     valor = 0
     
     #Actualizamos los valores str de las figuras a un valor numérico:
-    if (carta == "J") or (carta == "K") or (carta == "Q") or (carta == "0"):
+    figuras = 'JKQ0'
+    if (carta in figuras):
         valor = 10
         
     #Actualizamos el valor de A a 11. Durante el turno deberemos controlar la condición de cambiar a valor 1 o no.
