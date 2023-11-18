@@ -11,4 +11,3 @@ def primera_ronda(jugador: str) -> str:
         
     return mano_jugador
 
-print(primera_ronda('Sara'))
